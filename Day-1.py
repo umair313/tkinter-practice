@@ -60,6 +60,10 @@ space = Label(MainWindow, text="               ").pack()
 # also chamge the font size
 HelloWorld = Label(MainWindow, text="resize wont affect on vertical", font='Cursive', bg='black', fg='white', padx=10, pady=10).pack(fill='x')
 
+# lets see some Entry (Input Fields)
+inputField = Entry(MainWindow).pack()
+
+
 # loop to main window to render and keep track of every thing at every time
 # its an event loop keeps cycling
 MainWindow.mainloop()
